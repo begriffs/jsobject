@@ -1,13 +1,13 @@
 Provides a nicer way to access JavaScript objects through
 ExternalInterface in ActionScript 3.
 
-== Before ==
+## Before
 
     ExternalInterface.call('obj.method', arg1, arg2, ...);
     ExternalInterface.call('obj.method2', arg1, arg2, ...);
     ExternalInterface.call('obj.method3', arg1, arg2, ...);
 
-== After ==
+## After
 
     var obj = jsObject('obj');
     obj.method(arg1, arg2, ...);
